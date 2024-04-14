@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(9, 102, 37);
+    font-weight: 900;
+    
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+h2{ 
+    font-size: 35px;
+}
+
+h1, h2, h3, h4 {
+ color:rgb(245, 160, 32);
+ text-align: center;
+ font-weight: 900;
+ text-decoration: blue underline;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+ color: rgb(247, 161, 48);
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li, th {
+    color: rgb(184, 105, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    color: rgb(247, 161, 48);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+
+#l_link{
+    text-decoration: underline;
+}
+
+.ShLink{ 
+    text-decoration: underline;
+}
+
+li a{
+    color:rgb(92, 128, 238);
+}
+
+a:hover {
+    color: rgb(101, 139, 255);
+}
+
+.O_link { 
+color:sandybrown;
+}
+
+p::first-letter{
+    font-size: 150%;
+}
+
+::selection{
+    background-color: rgb(87, 236, 87);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.new {
+    font-size: 1.5em;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    background-color: darkorange;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+#opacity{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    opacity: 0.699;
+}
+
+.yessir {
+    color: skyblue;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    transition: background-color 3s 1s;
+}
+
+.circle:hover{
+    border-radius: 50%;
+    background-color: cyan;
+}
+

@@ -1,0 +1,27 @@
+body {
+    background-color: royalblue;
+}
+
+h1, h2, h3 {
+    color: rgb(231, 236, 255);
+}
+
+p {
+    color: white;
+}
+
+.paratext {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+button :hover {
+color: teal;
+text-decoration: underline;
+}
+
+img {
+    border-style: solid;
+    border-color: darkcyan;
+    border-width: 2px;
+}
